@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+        name: naruto
+        namespace: naruto
+spec:
+        containers:
+               - name: hinata
+                 image: nginx
+
