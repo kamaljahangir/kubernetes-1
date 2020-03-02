@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: ResourceQuota
+metadata:
+       name: quota
+       namespace: onepiece
+spec:
+        hard:
+                request.cpu: "1"
+                request.memory: 2Gi
+                limits.cpu: "1"
+                limits.memory: 2Gi
+                pods: 10
+
